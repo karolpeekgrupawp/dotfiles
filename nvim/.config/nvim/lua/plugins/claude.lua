@@ -2,6 +2,7 @@ return {
 	{
 		"pasky/claude.vim",
 		lazy = false,
+		enabled = false,
 		config = function()
 			-- Load API key from environment variable
 			local api_key = os.getenv("ANTHROPIC_API_KEY")
